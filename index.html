@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SponsorMatch | Connect College Events with Local Businesses</title>
+    <!-- Tailwind CSS for modern, clean styling -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="text-2xl font-bold text-indigo-600">SponsorMatch</div>
+            <nav class="space-x-4">
+                <a href="#how-it-works" class="text-gray-600 hover:text-indigo-600 font-medium">How it Works</a>
+                <a href="#apply" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition font-medium">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-indigo-50 to-white">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">
+                Fueling College Events. <br>
+                <span class="text-indigo-600">Growing Small Businesses.</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                The easiest way for student clubs and college festivals to secure sponsorships, and for local businesses to reach thousands of vibrant students.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#student-form" class="bg-indigo-600 text-white px-8 py-3 rounded-xl font-semibold shadow-md hover:bg-indigo-700 transition text-center">I am a Student Club</a>
+                <a href="#sponsor-form" class="bg-white text-indigo-600 border-2 border-indigo-600 px-8 py-3 rounded-xl font-semibold hover:bg-indigo-50 transition text-center">I am a Business Sponsor</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Column Comparison -->
+    <section id="how-it-works" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-100">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">How SponsorMatch Works</h2>
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- For Students -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center text-indigo-600 font-bold text-xl mb-4">🎓</div>
+                <h3 class="text-2xl font-bold mb-4 text-gray-900">For College Students</h3>
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start"><span class="text-indigo-600 mr-2">✔</span> Post your festival, tech race, or club event.</li>
+                    <li class="flex items-start"><span class="text-indigo-600 mr-2">✔</span> Specify what you need (cash funding, food, banners).</li>
+                    <li class="flex items-start"><span class="text-indigo-600 mr-2">✔</span> Pitch your footfall numbers directly to target brands.</li>
+                </ul>
+            </div>
+            <!-- For Sponsors -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 font-bold text-xl mb-4">💼</div>
+                <h3 class="text-2xl font-bold mb-4 text-gray-900">For Small Businesses</h3>
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start"><span class="text-emerald-600 mr-2">✔</span> Browse verified local campus events.</li>
+                    <li class="flex items-start"><span class="text-emerald-600 mr-2">✔</span> Get highly effective brand visibility right inside campuses.</li>
+                    <li class="flex items-start"><span class="text-emerald-600 mr-2">✔</span> Support future talent while hitting your sales goals.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intake Forms Section -->
+    <section id="apply" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">Join the Marketplace</h2>
+            <p class="text-center text-gray-600 mb-12">Submit your details below and we will find your matching partner.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Student Form -->
+                <div id="student-form" class="bg-white p-6 rounded-2xl shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 border-b pb-2 text-indigo-600">Students: Request Sponsorship</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">College & Club Name</label>
+                            <input type="text" placeholder="e.g., IIT Robotics Club" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Event Name & Date</label>
+                            <input type="text" placeholder="e.g., TechFest 2026" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Estimated Footfall / Audience Size</label>
+                            <input type="number" placeholder="e.g., 500" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none">
+                        </div>
+                        <button type="button" onclick="alert('Student request submitted!')" class="w-full bg-indigo-600 text-white py-2.5 rounded-lg font-semibold hover:bg-indigo-700 transition">Submit Request</button>
+                    </form>
+                </div>
+
+                <!-- Sponsor Form -->
+                <div id="sponsor-form" class="bg-white p-6 rounded-2xl shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 border-b pb-2 text-emerald-600">Sponsors: Offer Sponsorship</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Business Name</label>
+                            <input type="text" placeholder="e.g., Joe's Local Pizza" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Target Audience / College Tier</label>
+                            <input type="text" placeholder="e.g., Engineering Students, Local City" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Sponsorship Type Willing to Provide</label>
+                            <select class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+                                <option>Financial Funding (Cash)</option>
+                                <option>Coupons / Food Vouchers</option>
+                                <option>Merchandise / Goodies</option>
+                            </select>
+                        </div>
+                        <button type="button" onclick="alert('Sponsor interest submitted!')" class="w-full bg-emerald-600 text-white py-2.5 rounded-lg font-semibold hover:bg-emerald-700 transition">Register as Sponsor</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center border-t border-gray-800">
+        <p>&copy; 2026 SponsorMatch Marketplace. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
